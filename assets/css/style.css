@@ -6374,7 +6374,7 @@ button[type="submit"] .loading {
 .dropdown-menu .navigation-link:hover,
 .dropdown-menu .navigation-link:focus,
 .dropdown-menu .navigation-link:active {
-  background-color: rgba(243, 245, 246, 0.1);
+  background-color: #ea353e;
 }
 .navigation-link {
   -webkit-transition: color 0.15s ease, background 0.15s ease, border 0.15s ease, opacity 0.15s ease;
@@ -6468,7 +6468,7 @@ button[type="submit"] .loading {
   .header.header-color .navbar-collapse .buy-btn:active,
   .header.header-color .navbar-collapse .buy-btn.hovered,
   .header.header-color .navbar-collapse .buy-btn.pressed {
-    color: #fe4918;
+    color: #ea353e;
     background-color: #ffffff;
   }
 }
@@ -6926,8 +6926,8 @@ button[type="submit"] .loading {
     Theme styles
 ---------------------------------------------------------------------------- */
 .bg1 {
-  background-image: url("../img/backgrounds/bg1.jpg");
-}
+  background-image: url("../img/backgrounds/scs.jpg");
+  
 .bg2 {
   background-image: url("../img/backgrounds/bg2.jpg");
 }
