@@ -2407,15 +2407,15 @@ input[type="submit"] + .loading,
 .header.header-color .navigation-header .buy-btn.pressed,
 input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
-  color: #fe4918;
+  color: #ea353e;
 }
 ::selection {
   color: #ffffff;
-  background-color: rgba(254, 73, 24, 0.85);
+  background-color: rgba(234, 53, 62, 0.85);
 }
 ::-moz-selection {
   color: #ffffff;
-  background-color: rgba(254, 73, 24, 0.85);
+  background-color: rgba(234, 53, 62, 0.85);
 }
 .bg-low-poly,
 div.bg-low-poly,
