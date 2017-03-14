@@ -1,8 +1,6 @@
 {
-	"mapZoom": 16,
-	"markerImagePath": "../assets/img/marker-21x32.png",
-	"markerLatLng": [
-		40.7652577,
-		-73.9798788
-	]
+	"mapZoom": 15,
+	"markerAddress": "UNISC Santa Cruz do Sul RS Brazil",
+	"offsetX": 100,
+	"offsetY": 10
 }

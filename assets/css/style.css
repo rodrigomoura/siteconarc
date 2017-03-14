@@ -2336,7 +2336,7 @@ input[type=password].error,
 .call-to-action-section > .overlay:before,
 .thumb-wrapper .overlay:before,
 .header .buy-btn {
-  background-color: #ea353e;
+  background-color: rgba(234, 53, 62, 0.95);
 }
 .base-clr-txt,
 .highlight,
@@ -2409,6 +2409,12 @@ input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
   color: #ea353e;
 }
+
+.btn-inacive {
+    background-color: #eaeaea !important;
+  }
+
+
 ::selection {
   color: #ffffff;
   background-color: rgba(234, 53, 62, 0.85);
@@ -7207,4 +7213,5 @@ button[type="submit"] .loading {
     margin-bottom: 0;
     width: 100%;
   }
+
 }

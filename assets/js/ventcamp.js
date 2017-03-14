@@ -600,7 +600,7 @@ Ventcamp = {
                     marker = new google.maps.Marker({
                         map: map,
                         icon: icon,
-                        position: markerLatLng
+                        position: markerLatLngv
                     });
 
                     map.addListener('projection_changed', function() {
