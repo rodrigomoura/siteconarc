@@ -600,7 +600,7 @@ Ventcamp = {
                     marker = new google.maps.Marker({
                         map: map,
                         icon: icon,
-                        position: markerLatLngv
+                        position: markerLatLng
                     });
 
                     map.addListener('projection_changed', function() {
@@ -1218,3 +1218,15 @@ $('.navigation-item').on( 'click', function (event) {
         $('#navigation').removeClass('in');
     }
 });
+
+$(function () {
+    var $map = $('#map-contact');
+
+    $map.on('click', function (e) {
+        $map.addClass('active');
+    });
+
+    $map.on('mouseleave', function (e) {
+        $map.removeClass('active');
+    });
+}());

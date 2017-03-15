@@ -23,6 +23,29 @@
 		<script src="assets/js/html5shiv.js"></script>
 		<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+
+	<style type="text/css">
+		.contacts-map {
+		  height: 560px;
+		  cursor: pointer;
+		}
+
+		.contacts-map.active {
+			cursor: default;
+		}
+
+		.contacts-map.active iframe {
+			pointer-events: auto;
+		}
+
+		.contacts-map iframe {
+		  width: 100%; 
+		  height: 100%;
+		  border: 0;
+		  pointer-events: none; 
+		}
+	</style>
+
 </head>
 
 <body>
@@ -508,8 +531,11 @@
 
 	<section id="contato">
 		<div class="contacts-wrapper">
-			<div id="contacts-map" class="map" data-settings="map-settings.json" style="height:560px;"></div>
-			<div class="container contacts-on-map-container">
+			<div id="map-contact" class="contacts-map">
+				<!--iframe width="600" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJHwnm0uC1A5URc05nmyTMnec&key=AIzaSyBsAa9ARgtjhMNaxY5NQqO_dGDgqSTd7ik" allowfullscreen></iframe-->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.751369574992!2d-52.44062018455302!3d-29.69798728200967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951cbcae7dda7c4d%3A0x1c3315c39d5f27d1!2sUNISC!5e0!3m2!1spt-BR!2sbr!4v1489549278951" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<!--div class="container contacts-on-map-container">
 				<div class="contacts-on-map">
 					<h3>Localização</h3>
 
@@ -519,7 +545,7 @@
 						<li><i class="fa fa-phone"></i>(518) 457-5181 10001</li>
 					</ul>
 				</div>
-			</div>
+			</div-->
 		</div>
 	</section>
 
