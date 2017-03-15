@@ -377,6 +377,7 @@
 }
 .fa-map-marker:before {
   content: "\f041";
+  color: #ffffff;
 }
 .fa-adjust:before {
   content: "\f042";
@@ -1043,6 +1044,7 @@
 }
 .fa-calendar-o:before {
   content: "\f133";
+  color: #ffffff;
 }
 .fa-fire-extinguisher:before {
   content: "\f134";
